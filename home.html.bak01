@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>E-commerce</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+	<div class="nav">
+		<img src="Logo.png">
+		<a href="home.html">Home</a>
+		<a href="sales.html">Sales</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+
+<section class="slide">
+	<p>slide goes here</p>
+	</section>
+<div class="intro">
+	<h1>Looking for a good pair of sneakers? we've got you!</h1>
+	<p>FLAMESOLES is an online sneakers retail company. we are specialized in selling the best sneakers in town. we offers many
+	   deals and discounts on our products and services such as sneaker customization and sneaker retail services.We've built this platform so that people like you could benefit of our shoe retail services and shoe customization to your satisfaction.</p>
+	</div>
+</body>
+<footer>
+	<h1>Reach out to us on our social media Handles:</h1>
+	<div class="social">
+		<img src="icons/instagram.png">
+	</div>
+	<div class="social">
+		<img src="icons/whatsapp.png">
+	</div>
+	<div class="social">
+		<img src="icons/facebook.png">
+	</div>
+	<div class="social">
+		<img src="icons/pinterest.png">
+	</div>
+	<div class="copy">
+	<p>Also, You can kindly visit our main shop<br> in Downtown building</p>
+
+	<h3>COPYRIGHT: FlameSoles 2021</h3>
+	</div>
+</footer>
+</html>

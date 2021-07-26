@@ -1,0 +1,167 @@
+body{
+	background: #ccd5c0;
+}
+.nav{
+	background: #1d2124;
+	width: 100%;
+	height: 150px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+
+}
+.nav img{
+	position: relative;
+}
+.nav a{
+	font-family: 'Arial';
+	font-size: 28px;
+	font-weight: 400;
+	text-decoration: none;
+	color: whitesmoke;
+	padding-top: 0px;
+	padding-left: 80px;
+	padding-right: 59px;
+	position: relative;
+	top: -64px;
+	display: inline-block;
+
+}
+
+.nav a:hover{
+	background: #ccd5c0;
+	color: #1d2124;
+	transition: 1s;
+	height: 85px;
+	padding-top: 25px;
+	border-radius: 20px 20px 0px 0px;
+
+}
+.product-list{
+	background: #ccd5c0;
+	padding: 3em;
+}
+
+
+#head{
+	font-family: 'Arial';
+	font-size: 50px;
+	text-align: center;
+}
+.product-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap:20px;
+	grid-row-gap: 40px;
+}
+
+
+
+.product-list .card{
+	background: floralwhite;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0px 5px 5px #b2bec3;
+	text-align: center;
+	font-family: 'Arial';
+	transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+
+	
+
+
+}
+.card .title{
+	font-size: 24px;
+	font-family: 'Arial';
+	font-weight: bold;
+	margin-bottom: 0.5em;
+
+}
+.card img{
+	max-width: 100%;
+}
+.card .text{
+	text-align: left;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	font-family: 'Arial';
+	font-size: 16px;
+}
+.product-list .card:hover{
+	transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+}
+
+.buy-button{
+	background: #c65d00;
+	font-family: 'Arial';
+	border: none;
+	padding: 1em;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 300px;
+}
+.buy-button:hover{
+	box-shadow: 0px 5px 5px #b2bec3;
+	transition: 0.5s;
+	background: #5c667d6e;
+	color: black;
+
+
+	
+}
+
+
+
+
+
+
+footer{
+	background: #1d2124;
+	width: 100%;
+	height: 200px;
+}
+.social{
+	min-width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+.social img{
+	min-width: 70px;
+	height: 70px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+
+}
+.social img:hover{
+	background: #67716c70;
+	border-radius: 10px;
+	transition: 0.8s;
+	transform: translateY(-10px);
+	transform: translateX(10px);
+}
+footer h1{
+	font-family: 'Arial';
+	font-size: 24px;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: white;
+}
+.copy{
+	position: relative;
+	left: 700px;
+	top: -150px;
+}
+.copy p{
+	font-size: 24px;
+	font-family: 'Arial';
+	color: white;
+}
+.copy h3{
+	color: white;
+	margin-top: 60px;
+	position: relative;
+	left: 360px;
+}
